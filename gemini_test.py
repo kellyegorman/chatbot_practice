@@ -1,8 +1,7 @@
 import requests
 import json
 
-# Set your Google Gemini API Key
-api_key = "AIzaSyAcJc4UIJkjVZMe926br2W63KwLf6L44fo"  # Replace with your actual key
+api_key = "" 
 url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
 
 def chat_with_gemini(prompt):
