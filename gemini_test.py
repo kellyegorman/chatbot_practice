@@ -1,6 +1,12 @@
 import requests
 import json
 
+#STEP 1: Go to Google Gemini developer site to get API key (unrestricted)
+#STEP 2: Create virtual environment: 
+#  python3 -m venv chatbot_env
+#  source chatbot_env/bin/activate
+#STEP 3: pip install (necessary packages)
+
 api_key = "" 
 url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
 
